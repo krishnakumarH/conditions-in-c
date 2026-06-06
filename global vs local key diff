@@ -1,0 +1,13 @@
+in global if i assign 
+int a;          // a=0
+float b;        // 0.0
+double c;       // 0.0
+char d;         // '\0'
+int *p;         // NULL
+but in local var it will be take as garbage value except static var
+
+Global  → 0 by default
+Static  → 0 by default
+Local   → Garbage by default
+
+Memory -> for global stores data/segment ,for local in stack 
