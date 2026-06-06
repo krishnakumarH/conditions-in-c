@@ -1,17 +1,19 @@
 //we can also initalize using like this constant name it will identify as default.
+//signed store both pos and neg values
+//unsigned stores only pos values
 #include <stdio.h>
 
 int main()
 {
-    int a = 25;                  // int              printf("int                 : %d\n", a);
+    signed int a = 25;                  // int              printf("int                 : %d\n", a);
     unsigned int b = 25U;        // unsigned int     printf("unsigned int        : %u\n", b);
     
 
-    long int c = 25L;            // long int          printf("long int            : %ld\n", c);
+    signed long int c = 25L;            // long int          printf("long int            : %ld\n", c);
     unsigned long int d = 25UL;  // unsigned long int   printf("unsigned long int   : %lu\n", d);
   
 
-    long long int e = 25LL;      // long long int            printf("long long int       : %lld\n", e);
+    signed long long int e = 25LL;      // long long int            printf("long long int       : %lld\n", e);
     unsigned long long f = 25ULL;// unsigned long long int  ` printf("unsigned long long  : %llu\n", f);
    
 
