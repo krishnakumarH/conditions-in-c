@@ -1,6 +1,6 @@
 //static created only one tym in entire prgm
 // instead of for lloop we use static->it remember data
-//also static int y;it will assign automatic to y=0
+//also static int y;it will assign automatic to y=0 in both local and global variab
 #include<stdio.h>
 void fun(){
 static int n=0;  
