@@ -1,4 +1,5 @@
 //static created only one tym in entire prgm
+// instead of for lloop we use static->it remember data
 #include<stdio.h>
 void fun(){
 static int n=0;  
